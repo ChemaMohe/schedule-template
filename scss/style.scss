@@ -124,7 +124,7 @@ Main Components
 	z-index: 1;
 
 	.events-group {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 
 	.top-info {
@@ -143,7 +143,8 @@ Main Components
 		position: relative;
 		padding: 0 5%;
 		/* force its children to stay on one line */
-		display: flex;
+	    /* Comment out as we want to display horizontally */
+		/*display: flex; */
 		overflow-x: scroll;
 		-webkit-overflow-scrolling: touch;
 
@@ -152,7 +153,7 @@ Main Components
 			display: inline-block;
 			content: '-';
 			width: 1px;
-			height: 100%;
+			height: 100%;/*Elements to fill whole screen*/
 			opacity: 0;
 			color: transparent;
 		}
@@ -164,7 +165,7 @@ Main Components
 
 		float: left;
 		height: 150px;
-		width: 70%;
+		width: 100%;
 		max-width: 300px;
 		box-shadow: inset 0 -3px 0 rgba(#000, .2);
 		margin-right: 20px;

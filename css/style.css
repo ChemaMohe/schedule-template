@@ -132,9 +132,11 @@ Main Components
   position: relative;
   padding: 0 5%;
   /* force its children to stay on one line */
+  /* Comment out as we want to display horizontally 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  */
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -154,8 +156,8 @@ Main Components
   -ms-flex-negative: 0;
       flex-shrink: 0;
   float: left;
-  height: 150px;
-  width: 70%;
+  /*height: 150px; Remove Height*/
+  width: 100%; /*Elements to fill whole screen*/
   max-width: 300px;
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
   margin-right: 20px;
